@@ -1,0 +1,18 @@
+{
+  "name": "bla/shipping",
+  "description": "PoC Plugin connecting to the BlaBlaCar API",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BlablacarShipping\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "BlablacarShipping\\BlablacarShipping",
+    "label": {
+      "de-DE": "PoC Plugin connecting to the BlaBlaCar API",
+      "en-GB": "PoC Plugin connecting to the BlaBlaCar API"
+    }
+  }
+}
